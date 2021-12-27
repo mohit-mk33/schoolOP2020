@@ -1003,7 +1003,7 @@ button:focus {
 }
 @media screen and (max-width: 575.98px) {
     .perfection-section {
-        height: 190vh;
+        height: 105vh;
         padding-bottom: 120px;
         margin-bottom: 120px;
     }
@@ -1029,6 +1029,7 @@ button:focus {
 .reviews-section {
     padding: 0 0 50px 0;
     background-color: #fff;
+
 }
 .reviews-title-section {
     text-align: center;
@@ -1373,6 +1374,9 @@ button:focus {
     }
 }
 @media screen and (max-width: 767.98px) {
+	.reviews-section{
+		margin-top: -100px;
+	}
     .footer-section-container {
         flex-direction: column;
         margin-bottom: 0;
@@ -1491,4 +1495,9 @@ button:focus {
     bottom: 0;
     z-index: 100;
     margin-top: 100px;
+}
+@media screen and (max-width: 575.98px) {
+	.reviews-section{
+		margin-top: -100px;
+	}
 }
